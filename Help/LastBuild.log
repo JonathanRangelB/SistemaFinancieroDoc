@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="C:\Users\necro\Documents\testing\testing.shfbproj" started="11/04/2021 11:28:55 a. m.">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\Users\necro\Documents\testing
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2021.4.9.0
+Copyright &#169; 2006-2021, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\necro\source\repos\ProyectoSystemaFinanciero\SystemaFinanciero\bin\x86\Debug\SystemaFinanciero.xml
+Source: C:\Users\necro\source\repos\ProyectoSystemaFinanciero\SystemaFinanciero\bin\x86\Debug\SystemaFinanciero.exe
+    Found assembly &#39;C:\Users\necro\source\repos\ProyectoSystemaFinanciero\SystemaFinanciero\bin\x86\Debug\SystemaFinanciero.exe&#39;
+
+Copying XML comments files
+    C:\Users\necro\source\repos\ProyectoSystemaFinanciero\SystemaFinanciero\bin\x86\Debug\SystemaFinanciero.xml -&gt; C:\Users\necro\Documents\testing\Help\Working\SystemaFinanciero.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Ingl&#233;s (Estados Unidos))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.1579
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0260
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-2c9650e5-e554-495e-840f-8fbb59535247.proj]
+Compilaci&#162;n iniciada a las 11/04/2021 11:28:58 a. m..
+Proyecto &quot;C:\Users\necro\Documents\testing\Help\Working\GenerateRefInfo-2c9650e5-e554-495e-840f-8fbb59535247.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No hay redirecciones de enlace sugeridas procedentes de ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 4 namespaces, 62 types, and 225 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\necro\Documents\testing\Help\Working\GenerateRefInfo-2c9650e5-e554-495e-840f-8fbb59535247.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:02.4870
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+Compilaci&#162;n iniciada a las 11/04/2021 11:29:00 a. m..
+Proyecto &quot;C:\Users\necro\Documents\testing\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
+TransformManifest:
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copiando el archivo de &quot;C:\Users\necro\Documents\testing\Help\Working\reflection.xml&quot; en &quot;C:\Users\necro\Documents\testing\Help\Working\reflection.nofilenames&quot;.
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\necro\Documents\testing\Help\Working\TransformManifest.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:13.5060
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.7550
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Compilaci&#162;n iniciada a las 11/04/2021 11:29:14 a. m..
+Proyecto &quot;C:\Users\necro\Documents\testing\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
+GenerateIntermediateTOC:
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\necro\Documents\testing\Help\Working\GenerateIntermediateTOC.proj&quot; (destinos predeterminados).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:02.0093
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.8265
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\necro\Documents\testing\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0750
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Compilaci&#162;n iniciada a las 11/04/2021 11:29:17 a. m..
+Proyecto &quot;C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
+BuildTopics:
+  BuildAssembler (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\necro\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:SystemaFinanciero] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.ActualizaTasaInteres] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.ActualizaTasaInteres.#ctor(SystemaFinanciero.BDConector,System.String,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.ActualizaTasaInteres.#ctor(SystemaFinanciero.BDConector,System.String,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.ActualizaTasaInteres.#ctor(SystemaFinanciero.BDConector,System.String,System.String)] Missing &lt;param name=&quot;semanas&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasClientes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,System.String,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,System.String,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;modoDeVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,System.String,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;idCliente&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,System.String,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;mainWindowFather&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;modoDeVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasClientes.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;mainWindowFather&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.AltasClientes.filaSelec] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasConceptos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;modoDeVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;modoDeVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;codigoConcepto&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;tipoConcepto&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasConceptos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String,System.String)] Missing &lt;param name=&quot;descripcionConcepto&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasCortes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCortes.#ctor(SystemaFinanciero.BDConector,System.String,System.String[])] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCortes.#ctor(SystemaFinanciero.BDConector,System.String,System.String[])] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCortes.#ctor(SystemaFinanciero.BDConector,System.String,System.String[])] Missing &lt;param name=&quot;arrIdCorte&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasCxC] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasCxC.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;folio&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasPagos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;idPrestamo&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPagos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.Int32,System.String)] Missing &lt;param name=&quot;idCliente&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasPlazos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasPlazos.#ctor(SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasRecalculoIntereses] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasRecalculoIntereses.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasRecalculoIntereses.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasReconInterna] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasReconInterna.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;folio&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.AltasUsuarios] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasUsuarios.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasUsuarios.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.AltasUsuarios.#ctor(SystemaFinanciero.BDConector,System.Int32,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;mainWindowFather&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.BDConector] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.cerrarConexion] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.consultaQuery(System.Data.SqlClient.SqlCommand)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.consultaQuery(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutaQuery(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutaQuery(System.Data.SqlClient.SqlCommand)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutaQuery(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutarSP(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutarSP(System.Data.SqlClient.SqlCommand)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.ejecutarSP(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.estadoDeConexion] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.estadoDeConexion] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.getConnection] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.getConnection] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;server&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;baseDeDatos&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.iniciarConexion(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BDConector.nombreBaseDeDatos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.obtenerDatos(System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.obtenerDatos(System.String)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.obtenerDatos(System.String)] Missing &lt;param name=&quot;cadQuery&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.Data.SqlClient.SqlCommand)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.Data.SqlClient.SqlCommand)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String)] Missing &lt;param name=&quot;cadQuery&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.Data.SqlClient.SqlTransaction)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.Data.SqlClient.SqlTransaction)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.Data.SqlClient.SqlTransaction)] Missing &lt;param name=&quot;cadQuery&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.Data.SqlClient.SqlTransaction)] Missing &lt;param name=&quot;sqlTransaction&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nombre_buscar&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;datoARecuperar&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;columna&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BDConector.recuperarDato(System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nombre_tabla&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.BD] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.BD.MODE_INSOLATE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.FECHAS_SEGUIDAS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.ID_CONCEPTO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.SEMANAS_CONSECUTIVAS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.MODO_INSERCION] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.MODO_INSERCION.MANUAL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.MODO_INSERCION.SISTEMA] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS.ANULADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS.CANCELADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS.NO_PAGADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS.PAGADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS.REFINANCIADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.STATUS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.STATUS.CANCELADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.STATUS.EMITIDO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.STATUS.PAGADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.DOCUMENTO.PRESTAMO.STATUS.REFINANCIADO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.QUERY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_ACTUALIZA_CLIENTE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_ACTUALIZA_USUARIO_NO_PASSWORD] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_ACTUALIZA_USUARIO_WITH_PASSWORD] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_BUSCAR_AGENTE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_BUSCAR_CLIENTE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_BUSCAR_MULTAS_NO_PAGADAS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_BUSCAR_PLAZO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_PRESTAMO_CONSULTA_SQL_STRING] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_PRESTAMO_CONSULTA_SQL_STRING2] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.QUERY.QRY_REPORTE_PAGOS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.REPORTE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.REPORTE.REPORTE_COBROSDIARIOS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.REPORTE.REPORTE_PRESTAMOS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.SESION] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.SESION.FECHA_INICIO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.SESION.ID_SESION] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.SESION.ID_USUARIO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.SESION.USUARIO_NOMBRE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.SESION.USUARIO_ROL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.UI] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.UI.MODE_INSERT] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.UI.MODE_SEARCH] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.UI.MODE_UPDATE] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.UI.MODE_VIEW] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Constantes.UTIL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.String,System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.String,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.String,System.String,System.String)] Missing &lt;param name=&quot;year&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.String,System.String,System.String)] Missing &lt;param name=&quot;month&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.String,System.String,System.String)] Missing &lt;param name=&quot;day&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.Windows.Forms.DateTimePicker)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.Windows.Forms.DateTimePicker)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.armarFechaCorta(System.Windows.Forms.DateTimePicker)] Missing &lt;param name=&quot;compFecha&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.ConvertFromDBVal``1(System.Object)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.ConvertFromDBVal``1(System.Object)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.ConvertFromDBVal``1(System.Object)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.ConvertFromDBVal``1(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Decimal)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Decimal)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Decimal)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Double)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Double)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Double)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Single)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Single)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.formatoMoneda(System.Single)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.Constantes.UTIL.STR_FORMATO_MONEDA] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.utcDateTimeToLocalDateTime(System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.utcDateTimeToLocalDateTime(System.String)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Constantes.UTIL.utcDateTimeToLocalDateTime(System.String)] Missing &lt;param name=&quot;utcDate&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.Clone] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.Clone] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.GetSchemaSerializable] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.GetSchemaSerializable] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;param name=&quot;xs&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.InitializeDerivedDataSet] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ReadXmlSerializable(System.Xml.XmlReader)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ReadXmlSerializable(System.Xml.XmlReader)] Missing &lt;param name=&quot;reader&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.Relations] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.SchemaSerializationMode] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ShouldSerializeRelations] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ShouldSerializeRelations] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ShouldSerializeTables] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.ShouldSerializeTables] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.Tables] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(SystemaFinanciero.FinancieraDataSet.PLAZORow)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.AddPLAZORow(SystemaFinanciero.FinancieraDataSet.PLAZORow)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.Clone] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.Clone] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.Count] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.CreateInstance] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.CreateInstance] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.FindByID(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.FindByID(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.FindByID(System.Int32)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.GetRowType] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.GetRowType] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;param name=&quot;xs&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.IDColumn] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.NewPLAZORow] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.NewPLAZORow] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;param name=&quot;builder&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.PLAZORowChanged] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.PLAZORowChanging] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.PLAZORowDeleted] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.PLAZORowDeleting] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.RemovePLAZORow(SystemaFinanciero.FinancieraDataSet.PLAZORow)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.RemovePLAZORow(SystemaFinanciero.FinancieraDataSet.PLAZORow)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.SEMANAS_AGREGADASColumn] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZODataTable.SEMANAS_PLAZOColumn] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZORow.ID] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZORow.SEMANAS_AGREGADAS] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZORow.SEMANAS_PLAZO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZORowChangeEvent.#ctor(SystemaFinanciero.FinancieraDataSet.PLAZORow,System.Data.DataRowAction)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSet.PLAZORowChangeEvent.#ctor(SystemaFinanciero.FinancieraDataSet.PLAZORow,System.Data.DataRowAction)] Missing &lt;param name=&quot;action&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZORowChangeEvent.Action] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSet.PLAZORowChangeEvent.Row] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.FinancieraDataSet.PLAZORowChangeEventHandler] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Form_Login] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.obtenerDatosSesion] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.obtenerDatosSesion] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.registraFinSesion] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.ZeroMemory(System.IntPtr,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.ZeroMemory(System.IntPtr,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.ZeroMemory(System.IntPtr,System.Int32)] Missing &lt;param name=&quot;Destination&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_Login.ZeroMemory(System.IntPtr,System.Int32)] Missing &lt;param name=&quot;Length&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Form_mainWindow] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_mainWindow.#ctor(SystemaFinanciero.BDConector,SystemaFinanciero.Form_Login)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Form_mainWindow.#ctor(SystemaFinanciero.BDConector,SystemaFinanciero.Form_Login)] Missing &lt;param name=&quot;login&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmClientes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmClientes.#ctor(SystemaFinanciero.BDConector,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmClientes.#ctor(SystemaFinanciero.BDConector,SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;mainWindow&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmConceptos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmConceptos.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmConceptos.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmCortes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortes.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortes.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortes.llenarGridCortes(System.String)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortes.llenarGridCortes(System.String)] Missing &lt;param name=&quot;where&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmCortesResumen] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortesResumen.#ctor(System.String,SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;idCorte&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmCortesResumen.#ctor(System.String,SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmDefMultas] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultas.#ctor(SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmDefMultasActualiza] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultasActualiza.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultasActualiza.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;desde&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultasActualiza.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;hasta&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultasActualiza.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;cantidad&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmDefMultasActualiza.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;codigoMulta&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmEstadoDeCuenta] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmEstadoDeCuenta.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmEstadoDeCuenta.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;codigoCliente&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmFiltroClientes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroClientes.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroClientes.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;queryArmado&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmFiltroPrestamos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroPrestamos.#ctor(SystemaFinanciero.BDConector,System.String[],System.Int32)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroPrestamos.#ctor(SystemaFinanciero.BDConector,System.String[],System.Int32)] Missing &lt;param name=&quot;strQueryArmado&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroPrestamos.#ctor(SystemaFinanciero.BDConector,System.String[],System.Int32)] Missing &lt;param name=&quot;tipoReporte&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmFiltroReporteComisiones] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroReporteComisiones.#ctor(System.String[],SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;queryArmado&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroReporteComisiones.#ctor(System.String[],SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmFiltroReportePagos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroReportePagos.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmFiltroReportePagos.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;strQueryArmado&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmMovimientosCxC] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMovimientosCxC.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMovimientosCxC.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmMultas] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMultas.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMultas.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmMultasFiltro] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMultasFiltro.#ctor(SystemaFinanciero.BDConector,System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmMultasFiltro.#ctor(SystemaFinanciero.BDConector,System.Data.SqlClient.SqlCommand)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmPagos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmPagos.#ctor(SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmPrestamos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmPrestamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String[],SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmPrestamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String[],SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmPrestamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String[],SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;datosSesion&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmPrestamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String[],SystemaFinanciero.Form_mainWindow)] Missing &lt;param name=&quot;mainWindow&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmReconcInterna] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReconcInterna.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReconcInterna.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;codigoUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmReporteCobros] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReporteCobros.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReporteCobros.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;strWhere&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmReporteComisiones] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReporteComisiones.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReporteComisiones.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;query&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmReportePagos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReportePagos.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmReportePagos.#ctor(SystemaFinanciero.BDConector,System.String[])] Missing &lt;param name=&quot;strQuery&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.frmUsuarios] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.frmUsuarios.#ctor(SystemaFinanciero.BDConector)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.Pr‚stamos] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String,System.String[])] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String,System.String[])] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String,System.String[])] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String,System.String[])] Missing &lt;param name=&quot;idPrestamo&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String,System.String[])] Missing &lt;param name=&quot;datosSesion&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String[])] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String[])] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String[])] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.Int32,System.String[])] Missing &lt;param name=&quot;datosSesion&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;con&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;idUsuario&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;idCliente&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;cantidadMinima&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;id_prestamo_bd&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;modoVentana&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.#ctor(SystemaFinanciero.BDConector,System.String,System.String,System.String,System.String[],System.Int32,System.String[])] Missing &lt;param name=&quot;datosSesion&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.calcular_prestamo(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.calcular_prestamo(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.Pr‚stamos.calcular_prestamo(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.Pr‚stamos.filaSelec] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.ResultadosBusqueda] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.ResultadosBusqueda.#ctor(System.Data.DataTable,System.Windows.Forms.TextBox)] Missing &lt;param name=&quot;res&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.ResultadosBusqueda.#ctor(System.Data.DataTable,System.Windows.Forms.TextBox)] Missing &lt;param name=&quot;textBoxId&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.ResultadosDoctosRel] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SystemaFinanciero.BusinessRules] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.BusinessRules.BRMensajes] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_100_APPROVAL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_100_DENY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_101_APPROVAL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_101_DENY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_102_APPROVAL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_102_DENY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_103_APPROVAL] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_103_DENY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.MENSAJE_104_DENY] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.OBTENER_DESCRIPCION_MENSAJE(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.OBTENER_DESCRIPCION_MENSAJE(System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BusinessRules.BRMensajes.PRESTAMO.REFINANCIAMIENTO.OBTENER_DESCRIPCION_MENSAJE(System.Int32)] Missing &lt;param name=&quot;codigo_de_mensaje&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SystemaFinanciero.BusinessRules.UI] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SystemaFinanciero.BusinessRules.UI.BRUIRefinanciamientoResultado] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BusinessRules.UI.BRUIRefinanciamientoResultado.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;conector&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.BusinessRules.UI.BRUIRefinanciamientoResultado.#ctor(SystemaFinanciero.BDConector,System.String)] Missing &lt;param name=&quot;idPrestamo&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SystemaFinanciero.FinancieraDataSetTableAdapters] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Adapter] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.ClearBeforeFill] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.CommandCollection] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Delete(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Delete(System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Delete(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Delete(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Delete(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Fill(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Fill(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Fill(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;param name=&quot;dataTable&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.GetData] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.GetData] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Insert(System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Insert(System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Insert(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Insert(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Insert(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow)] Missing &lt;param name=&quot;dataRow&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow[])] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow[])] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Data.DataRow[])] Missing &lt;param name=&quot;dataRows&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_ID&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_PLAZO&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;Original_SEMANAS_AGREGADAS&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet)] Missing &lt;param name=&quot;dataSet&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.PLAZOTableAdapter.Update(SystemaFinanciero.FinancieraDataSet.PLAZODataTable)] Missing &lt;param name=&quot;dataTable&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.Connection] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;param name=&quot;inputConnection&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.PLAZOTableAdapter] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;rows&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;relation&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;childFirst&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.UpdateAll(SystemaFinanciero.FinancieraDataSet)] Missing &lt;returns&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.UpdateAll(SystemaFinanciero.FinancieraDataSet)] Missing &lt;param name=&quot;dataSet&quot;/&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SystemaFinanciero.FinancieraDataSetTableAdapters.TableAdapterManager.UpdateOrder] Missing &lt;summary&gt; documentation [C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj]
+  Processed 482 topic(s)
+  431 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 8 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  ResolveReferenceLinksComponent: 797 entries added to the member ID URL cache.  New cache size: 797 entries
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\necro\Documents\testing\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
+    Last step completed in 00:01:48.4907
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0110
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2021.4.9.0
+Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Users\necro\Documents\testing\Help\Working\Output\Website
+Processed 482 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\necro\Documents\testing\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\necro\Documents\testing\Help\Working\WebTOC.xml
+    Last step completed in 00:00:02.1924
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; C:\Users\necro\Documents\testing\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+    Last step completed in 00:00:01.6382
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:24.8708
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 762 files for the website content
+    Last step completed in 00:00:17.3758
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:01.4666
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 11/04/2021 11:31:53 a. m..  Total time: 00:02:57.2664
+
+</buildStep>
+</shfbBuild>

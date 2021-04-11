@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="00c36c10-a98d-4f5c-bb10-62b967eecafb" Title="SystemaFinanciero" Url="html/e5fec30b-fd78-feca-41c9-2d576abf1b8f.htm">
+    <HelpTOCNode Id="d6530302-cbad-4cc4-9921-45cf77432a72" Title="ActualizaTasaInteres Class" Url="html/bd95e5ad-5fcf-805c-9421-dd5ef3b875b6.htm">
+      <HelpTOCNode Title="ActualizaTasaInteres Constructor " Url="html/5fffc073-4a29-f931-2fe3-a1f38e15c729.htm" />
+      <HelpTOCNode Title="ActualizaTasaInteres Properties" Url="html/d7c49cf3-9f76-2774-6b67-96280d4e8040.htm" />
+      <HelpTOCNode Id="6ad18714-0da3-4814-bbb1-fe3dc040bbb8" Title="ActualizaTasaInteres Methods" Url="html/02309f48-014d-08bc-23c4-15af899d2257.htm">
+        <HelpTOCNode Id="9d0f3759-bec0-4e61-9209-a819e5bc45e8" Title="Dispose Method " Url="html/59743dd7-55c2-698b-32fb-50905a13c6f5.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/2ff154d4-5626-2d65-1309-59229d7200f3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ActualizaTasaInteres Events" Url="html/7aee0c7e-72e3-c7ee-fc22-f888812c93f1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4b3bcf5-b5f6-42fa-bd60-83b4b6faab8a" Title="AltasClientes Class" Url="html/ac4d611e-45fd-edbf-f76f-ed982f5b57f8.htm">
+      <HelpTOCNode Id="124b75b0-41da-4b8b-a7fe-3e93159d55f1" Title="AltasClientes Constructor " Url="html/0b00834c-6966-c9ce-4aec-57d658ccdb99.htm">
+        <HelpTOCNode Title="AltasClientes Constructor (BDConector, Int32, Form_mainWindow)" Url="html/a9817dbc-38c8-0493-1f5f-23466a45e624.htm" />
+        <HelpTOCNode Title="AltasClientes Constructor (BDConector, Int32, String, Form_mainWindow)" Url="html/b5a7ca9e-e96e-25df-2792-b492e09745ae.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="87fa338d-1b1b-4f39-920b-1447757f969c" Title="AltasClientes Properties" Url="html/537af986-20a8-1281-e92d-0f5c38671a61.htm">
+        <HelpTOCNode Title="filaSelec Property " Url="html/a02fdb67-767d-b33a-43b4-3b235b1b97b2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ddb1023-f32d-4a2d-89fe-970b041ac328" Title="AltasClientes Methods" Url="html/2e4ada39-aac4-8cff-4f45-b48d7bc70bad.htm">
+        <HelpTOCNode Id="747b55db-2f9f-430b-9b80-e44651babab0" Title="Dispose Method " Url="html/f7de5119-1bf5-e2e7-ee8d-eb2ce0e8a908.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/2aa4d991-1e82-6a92-79ab-09ae6dda5ed4.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasClientes Events" Url="html/68bc80b3-2d49-7ba4-f73f-1b7d3f7f4678.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="52183d63-f066-4a70-9703-ec85a08ae76a" Title="AltasConceptos Class" Url="html/f855c864-3016-6863-e03a-3ecf732ccafe.htm">
+      <HelpTOCNode Id="8fc9e600-839c-4892-9f41-d4d802e7fc83" Title="AltasConceptos Constructor " Url="html/db6507c7-dd3d-084d-7a85-c59ab4705ffb.htm">
+        <HelpTOCNode Title="AltasConceptos Constructor (BDConector, String, Int32)" Url="html/e471c415-5937-24fd-1e07-ed6074321f59.htm" />
+        <HelpTOCNode Title="AltasConceptos Constructor (BDConector, String, Int32, Int32, String, String)" Url="html/f3dc323a-2f2b-3faa-740a-6b5a7c619bc3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasConceptos Properties" Url="html/dd6cedc2-562c-d96f-0e1c-715cdfca7cbc.htm" />
+      <HelpTOCNode Id="daf11ac2-4aa9-4ea3-8bff-d0d8e4ee2418" Title="AltasConceptos Methods" Url="html/e5148028-128a-b761-cf5e-42ad99d09403.htm">
+        <HelpTOCNode Id="98655a27-646d-4353-8d93-713871d60f06" Title="Dispose Method " Url="html/4c076f64-af04-e66c-d588-436cf75ca9d5.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/2f95a192-c6e5-b66e-8022-3c5adc412b83.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasConceptos Events" Url="html/3f224f3b-9aa3-3b3f-6bc2-1a03408c8530.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a86ef5b9-b585-4d0c-b1a8-ca3db1ec8746" Title="AltasCortes Class" Url="html/07ba29d1-9b75-6817-1c33-3a9d2a3dbfb5.htm">
+      <HelpTOCNode Title="AltasCortes Constructor " Url="html/58a337ae-e1c3-53f6-c060-7588190a2755.htm" />
+      <HelpTOCNode Title="AltasCortes Properties" Url="html/3b90e47a-d30e-eb35-2675-693f36589b53.htm" />
+      <HelpTOCNode Id="deb908a9-adea-4fef-ac0e-d99b282bbd12" Title="AltasCortes Methods" Url="html/af83e144-f6c0-e894-d52f-8caea29ce0a5.htm">
+        <HelpTOCNode Id="aa45dfb6-98d2-4642-be21-dcd6c3c1c07c" Title="Dispose Method " Url="html/642c6e4b-38b4-f29a-6483-236f5279608c.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/295a842e-4a38-ade8-37b0-22cd569310e9.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasCortes Events" Url="html/f521d193-0bc9-ccf0-1e0d-77eeafe4ffdf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d4c874b4-4b2d-4985-840e-fc87592a1286" Title="AltasCxC Class" Url="html/2956a93d-aae2-ecfc-9a21-91257bd110f2.htm">
+      <HelpTOCNode Id="258ed161-7228-4677-a078-e7d32a00a98a" Title="AltasCxC Constructor " Url="html/c19be704-9aa5-7aaf-513d-e3656d33a330.htm">
+        <HelpTOCNode Title="AltasCxC Constructor (BDConector, String, Int32)" Url="html/150c42e7-6374-7501-ddb2-b61af48031fd.htm" />
+        <HelpTOCNode Title="AltasCxC Constructor (BDConector, String, Int32, String)" Url="html/2b71e6ac-4fdd-b890-4f8a-2dbbdebdecdc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasCxC Properties" Url="html/a25414e6-5c63-b7fc-b364-6b7a62c529cc.htm" />
+      <HelpTOCNode Id="c71ff7ec-d518-4df5-b51c-f03c4b4e2d7f" Title="AltasCxC Methods" Url="html/b452322d-4912-62fc-f690-5d56e8e5af7a.htm">
+        <HelpTOCNode Id="e8a28893-e3d7-4699-81d3-34c073b13ba3" Title="Dispose Method " Url="html/55896701-8b32-1a00-e760-5a8862d769d8.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/c2ca8032-b64d-b4e5-73ae-4b53f7187271.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasCxC Events" Url="html/19c1108c-0806-8708-5fa5-ffd6a9244009.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ecf48db4-bf46-4596-81b9-ab4a57fca2d2" Title="AltasPagos Class" Url="html/9f5b4267-5a9b-f1fa-e496-b107ae66360a.htm">
+      <HelpTOCNode Id="e9e27ce5-5b15-43eb-b489-a71467190334" Title="AltasPagos Constructor " Url="html/3dc2adf2-d454-e16d-fc6b-2f3d9cde10c8.htm">
+        <HelpTOCNode Title="AltasPagos Constructor (BDConector, String, Int32)" Url="html/846536d9-ce48-4edf-0f08-4171196a483a.htm" />
+        <HelpTOCNode Title="AltasPagos Constructor (BDConector, String, Int32, Int32, String)" Url="html/915fe2ad-d275-cf05-57ff-9789b7eb87e6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasPagos Properties" Url="html/7cf4f1dc-0d5f-ad4d-e6c5-f1e12b584c77.htm" />
+      <HelpTOCNode Id="56435957-72e5-40d0-b236-8fcba66de672" Title="AltasPagos Methods" Url="html/8b8f666c-7c07-784b-c326-a5cb72221291.htm">
+        <HelpTOCNode Id="b73b51f2-2482-41bc-b629-3f831a653af5" Title="Dispose Method " Url="html/9d71dab6-5eeb-bd9d-49d2-af5d3a92a3e5.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/a219dbf1-038f-9c02-f4a1-913fb0b60f4b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasPagos Events" Url="html/52100249-1593-cdda-0206-51814d07b514.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db0f95d8-c14f-4648-88e3-935cdb77eeab" Title="AltasPlazos Class" Url="html/4ed76a2f-4523-c16b-3bf6-8fc2583f126c.htm">
+      <HelpTOCNode Title="AltasPlazos Constructor " Url="html/465e4342-f87e-5709-3d98-46135d0d7ed5.htm" />
+      <HelpTOCNode Title="AltasPlazos Properties" Url="html/d68c263b-2edd-80f0-51b5-e383442772cf.htm" />
+      <HelpTOCNode Id="d458f8dd-792f-458c-8fda-b5faee21348f" Title="AltasPlazos Methods" Url="html/a70efd4c-ffa4-132b-2f6c-fd74dd1f5219.htm">
+        <HelpTOCNode Id="f717b88e-3ee0-4580-8052-2ea4bc6c7b49" Title="Dispose Method " Url="html/f5287c5a-7868-0321-86ec-ad6fa9ec969e.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/65428e37-7b83-5baf-d139-7d704c2477c4.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasPlazos Events" Url="html/e8a0db17-3e84-b15f-95d0-814bcc83844e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="94bf0607-59d1-47b4-b2ae-8c484f401ece" Title="AltasRecalculoIntereses Class" Url="html/73de32bf-fcdc-a9ca-3dc9-c0d0a15e8de2.htm">
+      <HelpTOCNode Title="AltasRecalculoIntereses Constructor " Url="html/17cd4e22-1a2a-0972-aa24-44215d56a414.htm" />
+      <HelpTOCNode Title="AltasRecalculoIntereses Properties" Url="html/4abde931-c01e-2bf0-a44b-9c93e80b7187.htm" />
+      <HelpTOCNode Id="d4b30e1f-fdef-49dc-a241-6e73d7057f31" Title="AltasRecalculoIntereses Methods" Url="html/6c5ebd95-f0d8-7a97-dcc6-2f14b559e9a0.htm">
+        <HelpTOCNode Id="0b61e54f-cafe-4dae-bff3-948920fb9613" Title="Dispose Method " Url="html/fe6e1675-d249-5502-41a3-138d5b4d8048.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/763c1868-483c-03bb-df3d-adeb35d64a1a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasRecalculoIntereses Events" Url="html/6c7b7804-8647-1a51-bd12-0c3e976a01f3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="35270ffa-5729-4734-a192-b92758cdea7d" Title="AltasReconInterna Class" Url="html/4dd2d6f4-2778-5bae-4732-cec83425747a.htm">
+      <HelpTOCNode Id="f1236ba5-f497-44b9-8e54-87a4c77bc592" Title="AltasReconInterna Constructor " Url="html/952f9703-3813-c1fb-0fed-de08665faa10.htm">
+        <HelpTOCNode Title="AltasReconInterna Constructor (BDConector, String, Int32)" Url="html/b19c46a5-ce21-a197-a6d1-9804ae1efcd0.htm" />
+        <HelpTOCNode Title="AltasReconInterna Constructor (BDConector, String, Int32, String)" Url="html/467a8f11-fa42-e967-d241-4580ad5fef93.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasReconInterna Properties" Url="html/ab3e3ceb-4ae1-8ad6-5fb4-224f48b13c35.htm" />
+      <HelpTOCNode Id="e6bd1524-f43b-465e-9758-06882debf6cd" Title="AltasReconInterna Methods" Url="html/9200a1b5-c622-69f7-3d5e-7839c7c49e67.htm">
+        <HelpTOCNode Id="f85be6fc-1590-4a3f-9ab1-596aff83c5b8" Title="Dispose Method " Url="html/b5394b4f-c42d-8dd1-0f87-cd839c02253b.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1e117d7d-131b-dcba-b5d8-d5397b79d0d8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasReconInterna Events" Url="html/474126c9-7582-b8e5-9842-b94029a225dc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="89614131-ffaf-4b08-9ed0-ec62621efee6" Title="AltasUsuarios Class" Url="html/5edf5f35-e775-b990-55e1-51906a701325.htm">
+      <HelpTOCNode Title="AltasUsuarios Constructor " Url="html/5c1b4f41-3366-ff22-bbae-7ce51532afdd.htm" />
+      <HelpTOCNode Title="AltasUsuarios Properties" Url="html/c095b8f0-74f6-bfd8-3409-5cc717212fd8.htm" />
+      <HelpTOCNode Id="51f25a24-9022-46d9-a69d-c21f3a901c94" Title="AltasUsuarios Methods" Url="html/9d07416e-8b8b-a411-9984-74afa34dcac6.htm">
+        <HelpTOCNode Id="c1e64f01-c70b-41de-bff8-b46b643da269" Title="Dispose Method " Url="html/345a87f6-10c1-5f95-7c7f-b374253dcca6.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/bbf87763-0d7f-833d-0b9f-6a902c034b2c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AltasUsuarios Events" Url="html/94a8a170-819e-4702-af37-9f0236d710f4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="454916e1-b4bd-4b01-92ea-9f92fadde149" Title="BDConector Class" Url="html/d372c6df-c9be-b0a8-997d-0d5cb0f68f6d.htm">
+      <HelpTOCNode Title="BDConector Constructor " Url="html/32d81162-fcf4-2075-6d48-c2c8a0e1c06e.htm" />
+      <HelpTOCNode Id="1f6b8b03-864a-4a26-b2a9-c7c36e227068" Title="BDConector Methods" Url="html/e8bd1375-d222-e0be-a3de-64e3713a62ba.htm">
+        <HelpTOCNode Title="cerrarConexion Method " Url="html/4a38b2cf-9424-302a-bdb6-1b65c8b02eb7.htm" />
+        <HelpTOCNode Title="consultaQuery Method " Url="html/1d637e29-42b0-b510-f55e-2c2a8a69235d.htm" />
+        <HelpTOCNode Title="ejecutaQuery Method " Url="html/791b8765-48d9-73bc-ec4f-19cf4efafc37.htm" />
+        <HelpTOCNode Title="ejecutarSP Method " Url="html/b596aec6-5ec6-d024-d096-fa52bfa6e454.htm" />
+        <HelpTOCNode Title="estadoDeConexion Method " Url="html/ba9bb482-aec9-9f09-c7f7-e4af9b1ed744.htm" />
+        <HelpTOCNode Title="getConnection Method " Url="html/e137eeb0-8cae-00cd-6e6d-8a5aa3f6922c.htm" />
+        <HelpTOCNode Title="iniciarConexion Method " Url="html/28d5514c-84c5-0493-22cc-43824df93c2c.htm" />
+        <HelpTOCNode Title="obtenerDatos Method " Url="html/6141e223-1345-035c-2163-33e21cf3e246.htm" />
+        <HelpTOCNode Id="e2954b6c-5ca0-47de-9bc2-03e54e5e5831" Title="recuperarDato Method " Url="html/dd3b7cf0-fe97-9f08-db57-d6eab8f83d61.htm">
+          <HelpTOCNode Title="recuperarDato Method (SqlCommand)" Url="html/cf32d4ed-c283-e597-30aa-5b9e5521a194.htm" />
+          <HelpTOCNode Title="recuperarDato Method (String)" Url="html/85add1a9-367b-6db0-624d-753f22915fc0.htm" />
+          <HelpTOCNode Title="recuperarDato Method (String, SqlTransaction)" Url="html/c0758b07-fe71-cb0f-1ed9-41df80bd80af.htm" />
+          <HelpTOCNode Title="recuperarDato Method (String, String, String, String)" Url="html/5c1b9399-9d7f-1d6f-3b9b-ed49417f562d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c488bca2-084c-4dfa-b167-86295d460536" Title="BDConector Fields" Url="html/c4447dcf-e343-f9ef-baf1-a3f6d1cd8444.htm">
+        <HelpTOCNode Title="nombreBaseDeDatos Field" Url="html/375dbdc6-eae5-7077-bb7b-0a0af1a1cfce.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Constantes Class" Url="html/f9e878e5-bbd2-b8e7-1fa9-cdf86571d9ea.htm" />
+    <HelpTOCNode Id="405ee7f8-3260-47ca-97bc-c44fc4010ce9" Title="Constantes.BD Class" Url="html/5cf52ab8-2369-e44f-3358-683231ae840f.htm">
+      <HelpTOCNode Id="ea05ec46-aa3c-4bc6-8ecd-c8cfbffe6814" Title="BD Fields" Url="html/e92814e9-9264-1192-c62e-8c6fbe75e71b.htm">
+        <HelpTOCNode Title="MODE_INSOLATE Field" Url="html/b8b7ffe7-2c99-ac8d-6554-19ec0771fdbf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Constantes.DOCUMENTO Class" Url="html/0edc1caf-a0ee-df26-98d9-d6b631229254.htm" />
+    <HelpTOCNode Id="1d87237c-d9e1-4523-af3d-b2cd6242f5b4" Title="Constantes.DOCUMENTO.PRESTAMO Class" Url="html/24c9edd4-d38c-77ce-a96d-016ba664d1c5.htm">
+      <HelpTOCNode Id="47d9477e-40d7-480b-9a79-745b8060b0fb" Title="PRESTAMO Fields" Url="html/423b8fcd-1077-7539-1875-feb42269d89f.htm">
+        <HelpTOCNode Title="FECHAS_SEGUIDAS Field" Url="html/4fbf7aac-811c-6a48-1dc3-9720abf97e88.htm" />
+        <HelpTOCNode Title="ID_CONCEPTO Field" Url="html/5aff6296-72eb-dafa-4add-864ccb930157.htm" />
+        <HelpTOCNode Title="SEMANAS_CONSECUTIVAS Field" Url="html/c44abc5e-5b7b-f975-e9b1-f29a4c4f8ef9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ae9c77a8-82ca-457c-8b53-4fa40bdc869c" Title="Constantes.DOCUMENTO.PRESTAMO.STATUS Class" Url="html/60220053-74f6-5987-1abf-6c3cf675b461.htm">
+      <HelpTOCNode Id="6c77d634-cb51-4a23-84eb-8006467c3bbe" Title="STATUS Fields" Url="html/f854291d-07d9-fc07-2a5e-06c5d1ed8921.htm">
+        <HelpTOCNode Title="CANCELADO Field" Url="html/0525ffd1-e22d-0f40-5989-46b05087c7d2.htm" />
+        <HelpTOCNode Title="EMITIDO Field" Url="html/c9ae1534-f33e-e6cb-724a-8b6b734745a4.htm" />
+        <HelpTOCNode Title="PAGADO Field" Url="html/1c84f6ff-7c19-5968-e274-f5832c1dcbab.htm" />
+        <HelpTOCNode Title="REFINANCIADO Field" Url="html/e7b8d4b5-0e5a-0125-a485-da7191d4caf8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Constantes.DOCUMENTO.PRESTAMO_DETALLE Class" Url="html/3ee621dc-b5ce-dba4-e67c-4c4cb4ae858b.htm" />
+    <HelpTOCNode Id="5daf4cc6-8a75-4dd3-96cf-49f5363e961b" Title="Constantes.DOCUMENTO.PRESTAMO_DETALLE.MODO_INSERCION Class" Url="html/0a6df6d7-0c01-5992-642e-31a4adc1bef0.htm">
+      <HelpTOCNode Id="ccdc0a88-ce13-408d-8855-75f499c0d0d4" Title="MODO_INSERCION Fields" Url="html/b56d2470-b11d-f776-a081-1afc78872fd0.htm">
+        <HelpTOCNode Title="MANUAL Field" Url="html/df32776a-35ed-5e6d-70c3-a26cc79f7901.htm" />
+        <HelpTOCNode Title="SISTEMA Field" Url="html/6ee14c47-1936-3163-945e-798b90246a87.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c8fc4c5-144a-465a-89cb-7fe5bf4fbc16" Title="Constantes.DOCUMENTO.PRESTAMO_DETALLE.STATUS Class" Url="html/b1378c29-6386-6016-df96-8ce7e16e9e04.htm">
+      <HelpTOCNode Id="267fb35d-bfee-4150-bb8b-c88157ca91b8" Title="STATUS Fields" Url="html/7f35b975-ea76-6344-c9c6-12819ab84e61.htm">
+        <HelpTOCNode Title="ANULADO Field" Url="html/83cde28a-f501-50ab-1e6c-9d13227a5f8c.htm" />
+        <HelpTOCNode Title="CANCELADO Field" Url="html/fd911b14-fca3-f200-d5ad-ce304faf2ba7.htm" />
+        <HelpTOCNode Title="NO_PAGADO Field" Url="html/15c4cc7c-0fac-7ade-d4f2-7d8456e2efc2.htm" />
+        <HelpTOCNode Title="PAGADO Field" Url="html/38548ecc-7b6d-88e2-0102-0cb78e71b164.htm" />
+        <HelpTOCNode Title="REFINANCIADO Field" Url="html/d499bf40-e8a4-08f0-8652-20da7aa347bb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e767ea6a-35e3-429e-b356-ae90af8a9b2f" Title="Constantes.QUERY Class" Url="html/98510265-77bd-cb0d-3b50-70444c5dfa32.htm">
+      <HelpTOCNode Id="2b8915a4-e69e-48d0-87fa-def72d1698be" Title="QUERY Fields" Url="html/9642747f-e16d-3ec0-8e0d-bbfd5f71cd96.htm">
+        <HelpTOCNode Title="QRY_ACTUALIZA_CLIENTE Field" Url="html/6593a08c-9d61-f4b2-387c-263a1467f81b.htm" />
+        <HelpTOCNode Title="QRY_ACTUALIZA_USUARIO_NO_PASSWORD Field" Url="html/bfd5949b-39a0-b24e-08e3-9c79f0816c45.htm" />
+        <HelpTOCNode Title="QRY_ACTUALIZA_USUARIO_WITH_PASSWORD Field" Url="html/6348f714-6950-1247-1602-51d69c74c93a.htm" />
+        <HelpTOCNode Title="QRY_BUSCAR_AGENTE Field" Url="html/87f14848-f8db-8e82-9d09-a06652c38f87.htm" />
+        <HelpTOCNode Title="QRY_BUSCAR_CLIENTE Field" Url="html/d712c099-dc8c-e692-481e-07cd0066f1ff.htm" />
+        <HelpTOCNode Title="QRY_BUSCAR_MULTAS_NO_PAGADAS Field" Url="html/6c1fca6e-32a5-85bf-3385-4fd542c73162.htm" />
+        <HelpTOCNode Title="QRY_BUSCAR_PLAZO Field" Url="html/94b600ba-faf1-f41f-5adc-bbd62a7c2469.htm" />
+        <HelpTOCNode Title="QRY_PRESTAMO_CONSULTA_SQL_STRING Field" Url="html/1f1cedf5-e71c-cce2-7ace-9a2a5d6a4c6b.htm" />
+        <HelpTOCNode Title="QRY_PRESTAMO_CONSULTA_SQL_STRING2 Field" Url="html/8d078f6e-6518-3e42-99aa-445f2b9e80c8.htm" />
+        <HelpTOCNode Title="QRY_REPORTE_PAGOS Field" Url="html/f430ffb6-1a65-b416-1827-02ea1372b1a5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b51ddde4-1e01-4467-8698-08cffc10994e" Title="Constantes.REPORTE Class" Url="html/16b9dab1-cbb1-4456-acb2-0609cc21be4e.htm">
+      <HelpTOCNode Id="9a2747d8-e746-4b5d-8be6-26f4707c34cb" Title="REPORTE Fields" Url="html/e451b81d-4bbd-7145-51af-0ceee9e9810f.htm">
+        <HelpTOCNode Title="REPORTE_COBROSDIARIOS Field" Url="html/fa8b73fe-fc5b-6743-7740-4239ed5a0662.htm" />
+        <HelpTOCNode Title="REPORTE_PRESTAMOS Field" Url="html/d69330a0-7db4-c4c7-2168-8d8624b66768.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ca81e2fb-2cca-4d49-a24f-4eb0efc78a3a" Title="Constantes.SESION Class" Url="html/5b6f198f-6f55-cbfa-51ee-e65e72052c3b.htm">
+      <HelpTOCNode Id="cd4fe02f-4cf6-468e-a773-bc6a2364b2b7" Title="SESION Fields" Url="html/27412d91-b191-687a-6475-d18d3fc5395a.htm">
+        <HelpTOCNode Title="FECHA_INICIO Field" Url="html/66da08fa-cd89-6dbd-c3ab-e8c3a0b1aa38.htm" />
+        <HelpTOCNode Title="ID_SESION Field" Url="html/c8b419f3-c6e3-89fe-8579-e5e7dea27791.htm" />
+        <HelpTOCNode Title="ID_USUARIO Field" Url="html/b099eb15-dd4e-c005-3044-ab783f069c0b.htm" />
+        <HelpTOCNode Title="USUARIO_NOMBRE Field" Url="html/f45e1d25-da82-77cc-4146-f762f78de7e4.htm" />
+        <HelpTOCNode Title="USUARIO_ROL Field" Url="html/67827550-e47c-6101-846a-98bdc1e5eea9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c02720ef-7039-448a-bb89-f29ccdc4c09b" Title="Constantes.UI Class" Url="html/95ff092f-9460-9617-fdfb-280229f0ae39.htm">
+      <HelpTOCNode Id="878d8946-0fbd-4939-b187-482787d7682c" Title="UI Fields" Url="html/c2c105ef-6f1f-6a37-2f3e-17de54b8d15e.htm">
+        <HelpTOCNode Title="MODE_INSERT Field" Url="html/9d45a3c3-ccdd-b046-a9f0-28b1a5e9f5d2.htm" />
+        <HelpTOCNode Title="MODE_SEARCH Field" Url="html/5887f204-2881-35ee-56f4-65f509e6590d.htm" />
+        <HelpTOCNode Title="MODE_UPDATE Field" Url="html/77aa984b-e8f1-a0a6-62d9-f4c762f0ed9a.htm" />
+        <HelpTOCNode Title="MODE_VIEW Field" Url="html/dcdd7547-7a59-0d30-e14b-7dd3d997e288.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2f4e9033-575d-43e0-befe-211dca4d210b" Title="Constantes.UTIL Class" Url="html/c0b21da7-fabb-66a7-3263-41231e5aac17.htm">
+      <HelpTOCNode Id="91a27173-d2f4-458a-b1da-7e4c0e8bebe9" Title="UTIL Methods" Url="html/d52e7252-08bd-bc81-cb41-5ec8689cb6f8.htm">
+        <HelpTOCNode Id="859ffc92-81bb-4c5c-a018-f1c5c8f3663c" Title="armarFechaCorta Method " Url="html/e31ff6c6-6e7d-d5c5-2915-5c2a8352d294.htm">
+          <HelpTOCNode Title="armarFechaCorta Method (DateTimePicker)" Url="html/56599436-9760-848d-6849-7d8786fab6e5.htm" />
+          <HelpTOCNode Title="armarFechaCorta Method (String, String, String)" Url="html/cb8dda50-e549-7ec5-a18b-3b1b8b38b49d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ConvertFromDBVal(T) Method " Url="html/bde19428-d4b3-4cac-49f8-99376657f523.htm" />
+        <HelpTOCNode Id="bc365d91-3223-48db-a1f0-e660110078bd" Title="formatoMoneda Method " Url="html/4a466420-2984-58bb-dd7c-f1a55fe73a52.htm">
+          <HelpTOCNode Title="formatoMoneda Method (Decimal)" Url="html/cd2f0961-ab9b-b5e1-d188-8c504561ce53.htm" />
+          <HelpTOCNode Title="formatoMoneda Method (Double)" Url="html/7acdd053-55d6-5db2-9a6f-d755bbcaf312.htm" />
+          <HelpTOCNode Title="formatoMoneda Method (Single)" Url="html/18f08046-52e7-bf78-820f-4846b90a1ac3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="utcDateTimeToLocalDateTime Method " Url="html/f97c279f-8806-773f-554f-9731d2eeb252.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="78b63f21-4743-4996-aec7-60d481f9d45d" Title="UTIL Fields" Url="html/b3e1c91d-031f-9100-75f3-55432f7bb60a.htm">
+        <HelpTOCNode Title="STR_FORMATO_MONEDA Field" Url="html/40db7596-d786-ab68-6571-7d030a7e1ed3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="da4960b3-d9d3-4922-b9af-b3b9fa261f27" Title="FinancieraDataSet Class" Url="html/3cbba06a-8dd3-bbc2-623f-1595a808c37e.htm">
+      <HelpTOCNode Id="bb4e2e6f-bdf2-4a8a-96e7-cb5a793f126b" Title="FinancieraDataSet Constructor " Url="html/b0ad3f46-97c8-65c8-a8a9-4546a8b69188.htm">
+        <HelpTOCNode Title="FinancieraDataSet Constructor " Url="html/c846d781-6adb-0851-257e-7e3b1b57f6d2.htm" />
+        <HelpTOCNode Title="FinancieraDataSet Constructor (SerializationInfo, StreamingContext)" Url="html/b9f73c45-d4f9-89b0-cbf0-4182b5099be4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fad2e606-641c-46a1-bd5f-6d397c85ffd3" Title="FinancieraDataSet Properties" Url="html/b6756099-c605-b60f-59fb-5cf42aab4141.htm">
+        <HelpTOCNode Title="PLAZO Property " Url="html/a4073686-2f9e-bc9f-7c40-667e84cc3a84.htm" />
+        <HelpTOCNode Title="Relations Property " Url="html/5f8916d5-d87e-ddcc-be00-1cfc696dab3f.htm" />
+        <HelpTOCNode Title="SchemaSerializationMode Property " Url="html/5969ff15-c670-4fa6-745a-684335b02a66.htm" />
+        <HelpTOCNode Title="Tables Property " Url="html/c4e9e0d3-26d0-f336-c43e-e86471e294e2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ea427f6e-0d52-4ed9-a6bf-309ba726e5e7" Title="FinancieraDataSet Methods" Url="html/19f9a3a7-e897-08c0-a0ad-c41bd9c74e06.htm">
+        <HelpTOCNode Title="Clone Method " Url="html/4f6f6bed-6579-d209-27d8-c705fca089b9.htm" />
+        <HelpTOCNode Title="GetSchemaSerializable Method " Url="html/46e1cace-a766-29c2-ad1b-3ff2216743df.htm" />
+        <HelpTOCNode Title="GetTypedDataSetSchema Method " Url="html/a440df19-b1cb-27d4-8b79-c8e710372a1c.htm" />
+        <HelpTOCNode Title="InitializeDerivedDataSet Method " Url="html/2c5ed842-3c3f-1c06-5e64-6bbec3fa7a00.htm" />
+        <HelpTOCNode Title="ReadXmlSerializable Method " Url="html/ed8c0510-6753-a18d-a64b-15901a0a2784.htm" />
+        <HelpTOCNode Title="ShouldSerializeRelations Method " Url="html/c196481a-d8b1-2b10-27e5-eaf041d03f95.htm" />
+        <HelpTOCNode Title="ShouldSerializeTables Method " Url="html/99e6b261-1f6d-41f2-6cca-b2f310c74fca.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FinancieraDataSet Events" Url="html/c1d30acc-b10f-32dd-b6ec-b7dec5aa5c66.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b833966-67e4-4e53-83b1-33ff60f7243e" Title="FinancieraDataSet.PLAZODataTable Class" Url="html/54033187-fafc-8eb4-556b-73619c7e0e40.htm">
+      <HelpTOCNode Id="4204e8ac-fad3-4c7a-8d1b-cdf5c526c6fb" Title="PLAZODataTable Constructor " Url="html/19a1b3f0-3a87-2b02-f422-6ab45f4c9538.htm">
+        <HelpTOCNode Title="FinancieraDataSet.PLAZODataTable Constructor " Url="html/b6909958-97c3-5711-1370-fe0009687b18.htm" />
+        <HelpTOCNode Title="FinancieraDataSet.PLAZODataTable Constructor (SerializationInfo, StreamingContext)" Url="html/e540f95f-4ea7-595b-bc53-95bac67d056d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d48e090-63c4-4ebd-8447-9303587cd118" Title="PLAZODataTable Properties" Url="html/2485fc1e-3a24-29d1-254b-cdfc9c943c19.htm">
+        <HelpTOCNode Title="Count Property " Url="html/566a5e1f-bde6-75af-da37-1089ce14abd6.htm" />
+        <HelpTOCNode Title="IDColumn Property " Url="html/5d9ed214-2ed3-ea5a-cfb5-7b24a765b1a1.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/1b3b640d-5656-7d04-a749-29eebdf0f0fc.htm" />
+        <HelpTOCNode Title="SEMANAS_AGREGADASColumn Property " Url="html/0e667fc6-b269-2ff1-6ea3-dcae850cc764.htm" />
+        <HelpTOCNode Title="SEMANAS_PLAZOColumn Property " Url="html/b3639c12-36d0-f5a6-b0b4-89c103bf4502.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a2e299c1-372f-40ce-b6bd-099785a8b028" Title="PLAZODataTable Methods" Url="html/0372d799-d7f4-3c92-f7f2-ce9679a5b37f.htm">
+        <HelpTOCNode Id="845674c0-9137-4ea9-a38c-91341ab79171" Title="AddPLAZORow Method " Url="html/d48392ff-c16d-0549-d60f-d76bd24a0a31.htm">
+          <HelpTOCNode Title="AddPLAZORow Method (FinancieraDataSet.PLAZORow)" Url="html/c7f035c6-f5b0-6a41-5d60-56860bb73d55.htm" />
+          <HelpTOCNode Title="AddPLAZORow Method (Int32, Int32, Int32)" Url="html/76674c6a-c5c1-febe-a686-2fde7a642693.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone Method " Url="html/8160b1f3-628c-7108-85bb-67ea446e023f.htm" />
+        <HelpTOCNode Title="CreateInstance Method " Url="html/8e14ce93-cbcf-8728-ce25-d758c3998389.htm" />
+        <HelpTOCNode Title="FindByID Method " Url="html/a2506f49-7d43-ac59-e406-17b6bf201f17.htm" />
+        <HelpTOCNode Title="GetRowType Method " Url="html/419f7ee2-9a9a-0ab4-1204-8f53f578d8cf.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema Method " Url="html/cbf39505-a460-a2de-ef50-e9c2aa185aad.htm" />
+        <HelpTOCNode Title="NewPLAZORow Method " Url="html/cd6732f0-2cb9-dd2e-74c9-a90ad45d0b17.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder Method " Url="html/f00c7885-4dee-fc3e-e534-ab8cc25bb4b6.htm" />
+        <HelpTOCNode Title="OnRowChanged Method " Url="html/f918f88b-079d-2942-ae4a-7803f94f0d66.htm" />
+        <HelpTOCNode Title="OnRowChanging Method " Url="html/5a88b845-fe31-e902-1716-a94bfeb2a710.htm" />
+        <HelpTOCNode Title="OnRowDeleted Method " Url="html/e0231c66-a1d5-bc02-a9e9-6cb3a5a82b23.htm" />
+        <HelpTOCNode Title="OnRowDeleting Method " Url="html/8c931096-8b7b-533e-1444-03052475e5fb.htm" />
+        <HelpTOCNode Title="RemovePLAZORow Method " Url="html/9a74271a-9669-7423-ca7e-e45609680bdb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="edcf5d1b-c0b5-49a1-a2e2-4561678a5c41" Title="PLAZODataTable Events" Url="html/1b0355b0-d68f-0530-debd-e18f2c8afc6b.htm">
+        <HelpTOCNode Title="PLAZORowChanged Event" Url="html/35b6dc2b-57be-f908-b588-cc11e401bfd7.htm" />
+        <HelpTOCNode Title="PLAZORowChanging Event" Url="html/87516e84-c289-1bfb-8cbe-b0d44f63b8f4.htm" />
+        <HelpTOCNode Title="PLAZORowDeleted Event" Url="html/33bd0501-5ee4-2e25-8e64-f92316dbd32b.htm" />
+        <HelpTOCNode Title="PLAZORowDeleting Event" Url="html/eb13f74d-44e4-bb2c-d1b3-7d0cf0841534.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PLAZODataTable Fields" Url="html/83524b5a-afbc-2277-d9eb-69b34f62f3f1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a05c1ca0-5eec-4d4d-a8c1-950c1e746a4f" Title="FinancieraDataSet.PLAZORow Class" Url="html/0900d2a5-3e31-04fc-f3d4-e5972dff74f2.htm">
+      <HelpTOCNode Id="06bf344c-2b39-476c-b76d-76c1d9e1a648" Title="PLAZORow Properties" Url="html/9beb5a41-3bd2-2813-9e8b-be23bf12495b.htm">
+        <HelpTOCNode Title="ID Property " Url="html/6fa6be3d-9bc5-dd9e-4926-83d34efc4b8f.htm" />
+        <HelpTOCNode Title="SEMANAS_AGREGADAS Property " Url="html/57b47cd1-ee8e-79d9-4344-f4da80fe2f71.htm" />
+        <HelpTOCNode Title="SEMANAS_PLAZO Property " Url="html/6843cacc-cdf0-f622-14a0-b17691d6ec19.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PLAZORow Methods" Url="html/5d08fe6c-78e9-b887-7960-19440e0293dc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0f86fce0-a404-4568-b273-5195e103157d" Title="FinancieraDataSet.PLAZORowChangeEvent Class" Url="html/81783bb7-4646-eb6b-4973-208d9c096724.htm">
+      <HelpTOCNode Title="FinancieraDataSet.PLAZORowChangeEvent Constructor " Url="html/87100cd3-0a5b-9fbd-4970-22f4e48e4593.htm" />
+      <HelpTOCNode Id="1e10f415-d35a-4254-a3c2-0430d2c77c09" Title="PLAZORowChangeEvent Properties" Url="html/42ccfb74-bb22-ac11-b014-8b92ec5ebc3e.htm">
+        <HelpTOCNode Title="Action Property " Url="html/13736f7a-da27-0d0c-25df-55555bacd183.htm" />
+        <HelpTOCNode Title="Row Property " Url="html/702e379a-e810-d466-7548-5cad5ae7e900.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PLAZORowChangeEvent Methods" Url="html/0b3b06fe-bd02-5a8c-adaa-e1d61b58db4d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="FinancieraDataSet.PLAZORowChangeEventHandler Delegate" Url="html/07133643-acdf-8e39-e9b3-e565b93808c7.htm" />
+    <HelpTOCNode Id="af0b4bb0-be33-441c-a8b3-60607328b9a8" Title="Form_Login Class" Url="html/cfe1df16-bc78-5a34-a9b7-430b029242de.htm">
+      <HelpTOCNode Title="Form_Login Constructor " Url="html/834a941f-9c49-b7cf-c5d0-8cc84d1101b5.htm" />
+      <HelpTOCNode Title="Form_Login Properties" Url="html/d2ef5a48-1a44-0494-1be2-dd5df9c18f4b.htm" />
+      <HelpTOCNode Id="9a2ffc8a-05dc-4fdc-a351-88da8dda3ad3" Title="Form_Login Methods" Url="html/3e3f2082-3e83-2f35-81b9-f924697cb396.htm">
+        <HelpTOCNode Id="bf7c4254-f924-495d-98dc-cb1c9a40aaf3" Title="Dispose Method " Url="html/6e9febf4-b204-833e-fa6f-122aed5a205d.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/825a93fa-bf92-e410-f552-58c692942ec6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="obtenerDatosSesion Method " Url="html/8915fc4b-2118-fa8b-0b6d-1d648e4b328c.htm" />
+        <HelpTOCNode Title="registraFinSesion Method " Url="html/8c6e3867-e1f4-0b0d-40f9-fb5ee9482648.htm" />
+        <HelpTOCNode Title="ZeroMemory Method " Url="html/45dc1a8e-b30f-01a4-ae7b-64c9c8d3a5de.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Form_Login Events" Url="html/40e62d9d-6b9f-bb7c-85d5-c67756174f65.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="152ce34d-8b0c-4d84-8383-c7df83738e0b" Title="Form_mainWindow Class" Url="html/7bad41c1-23a9-285c-97e5-82aeb419d192.htm">
+      <HelpTOCNode Title="Form_mainWindow Constructor " Url="html/a6156216-d806-5fc0-a4c2-e51576d4363a.htm" />
+      <HelpTOCNode Title="Form_mainWindow Properties" Url="html/60b8b8ba-1f71-b3b6-f950-708e03e077c1.htm" />
+      <HelpTOCNode Id="16c3fdb9-458b-4e31-b307-5cd1f9160bba" Title="Form_mainWindow Methods" Url="html/50d2ab01-a84f-8bff-55f0-64014191474c.htm">
+        <HelpTOCNode Id="ee36a623-9cc8-4927-b92d-1b261d87be15" Title="Dispose Method " Url="html/732ee51e-5977-95da-8c7a-8a4c6cdea6aa.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/5181f0dc-0882-9271-626c-b16254d159cb.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Form_mainWindow Events" Url="html/f50f6fb3-9098-496f-6f11-20c2d4a8f834.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8b157d2d-83b5-48a3-9a7c-0a3e699fbd08" Title="frmClientes Class" Url="html/b10ec2fd-aec3-0fdd-4d21-ed7f9957cf94.htm">
+      <HelpTOCNode Title="frmClientes Constructor " Url="html/9422e47d-cd99-fbd6-61cd-7ae432c8704f.htm" />
+      <HelpTOCNode Title="frmClientes Properties" Url="html/749c8e15-b378-c809-04a2-e533110096ab.htm" />
+      <HelpTOCNode Id="81f15e71-b0a8-4803-bd74-c83bb17e6bec" Title="frmClientes Methods" Url="html/a0902a7c-7f0c-fad3-7501-ddf232e0b189.htm">
+        <HelpTOCNode Id="b0c5fd53-e9a6-4173-be10-694dd14ae34d" Title="Dispose Method " Url="html/3a22e4a8-1ee0-5ba1-a95e-e97eec6f9434.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/f26b38e4-e8fc-14f4-c5be-fd552a2af490.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmClientes Events" Url="html/ae05901e-4bbb-796b-7e3e-a772726f1992.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a495c209-2474-41d8-9f1b-1367607b08df" Title="frmConceptos Class" Url="html/52fd186b-c7f3-c206-68c3-89ea076e7b9b.htm">
+      <HelpTOCNode Title="frmConceptos Constructor " Url="html/762d9163-907b-2a54-b82f-008053f88baa.htm" />
+      <HelpTOCNode Title="frmConceptos Properties" Url="html/29b8ad2a-9341-5ee7-1ea7-284963140ffc.htm" />
+      <HelpTOCNode Id="539ddafa-b34e-4447-9838-c9a5d9212535" Title="frmConceptos Methods" Url="html/63a37863-f6db-8ffb-24dc-a54257bc7291.htm">
+        <HelpTOCNode Id="133fdd1e-d811-4e1d-b642-da186c8dcd7e" Title="Dispose Method " Url="html/80850001-6de9-a634-fb08-21520924329c.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/93b05d57-7ce3-aff5-69aa-a9bc039456ee.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmConceptos Events" Url="html/2e068409-6693-d6d6-220e-8130fb242d28.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6db7e7f-c951-47de-b510-ae33a19d6d75" Title="frmCortes Class" Url="html/ea0cf678-0488-5b00-cc65-7f06e8a1118e.htm">
+      <HelpTOCNode Title="frmCortes Constructor " Url="html/838a2d24-4648-1442-38dd-bd6724b4216f.htm" />
+      <HelpTOCNode Title="frmCortes Properties" Url="html/b1215b40-9bf7-54af-b0bd-05afbe0dc227.htm" />
+      <HelpTOCNode Id="5ae1609b-76f2-41b7-b122-cbdad3f8d86b" Title="frmCortes Methods" Url="html/e7e859f4-0fb1-b33b-26fd-37f305f1b8d3.htm">
+        <HelpTOCNode Id="17bd4c05-5639-4011-88b7-dd8f84ddc143" Title="Dispose Method " Url="html/79835a4e-4111-3c4c-1a4c-7cf4929ea49a.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/9289fb06-7bb6-a545-4f96-87f7ebc86ed6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="llenarGridCortes Method " Url="html/f42dfdbb-1069-e8a0-ba33-5860d5399e03.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmCortes Events" Url="html/ded20d11-ba45-d1ad-5ab3-915a0e6b96c9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f63d29c3-2d4a-42dc-a49d-fb762607b930" Title="frmCortesResumen Class" Url="html/0567b4e9-4a68-430c-0571-a87af3b2aea2.htm">
+      <HelpTOCNode Title="frmCortesResumen Constructor " Url="html/5acdf61b-8690-50f6-50c3-67e2b6e3fe36.htm" />
+      <HelpTOCNode Title="frmCortesResumen Properties" Url="html/e4f94d31-3335-3f25-5bf8-aa98b4f3d733.htm" />
+      <HelpTOCNode Id="564320c0-d650-4324-b0fb-9299536c6a7f" Title="frmCortesResumen Methods" Url="html/4373b26f-02cb-f7b7-ee7d-d138c016d4ed.htm">
+        <HelpTOCNode Id="a4cd6535-945c-4728-ad67-3f31d7ae0bf2" Title="Dispose Method " Url="html/409c870d-e0c3-4326-3f61-2b751b6a32ab.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/2aac6e76-cca3-7402-2c36-ad0ed4e75810.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmCortesResumen Events" Url="html/790c09e0-23cc-0e33-7ad3-00912cb9b292.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b0611889-1aea-4bab-b3c0-f2f236e42460" Title="frmDefMultas Class" Url="html/0e341e6d-1946-f539-08c3-51697e10d701.htm">
+      <HelpTOCNode Title="frmDefMultas Constructor " Url="html/5c11ade1-17a7-acb8-add5-43f0ebf7f3d3.htm" />
+      <HelpTOCNode Title="frmDefMultas Properties" Url="html/60eda286-b059-e330-2e91-e8d1acb7e903.htm" />
+      <HelpTOCNode Id="d83ef28e-2545-410c-bf5a-25c88d96da4b" Title="frmDefMultas Methods" Url="html/19b5c91e-c11b-c3c0-769c-27306facee1c.htm">
+        <HelpTOCNode Id="be197526-9c36-46f6-9248-d3cb6089297c" Title="Dispose Method " Url="html/7136987b-4e18-f853-e78b-28b591f058ac.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/4dcd3581-9859-31fa-885a-a99ddff4370a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmDefMultas Events" Url="html/3e351eee-16b7-1628-f59b-026967c7acca.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3c94feb-608f-44ad-bb7d-c9c5a883cf43" Title="frmDefMultasActualiza Class" Url="html/999573de-20ac-31c9-36d0-88081b928a76.htm">
+      <HelpTOCNode Title="frmDefMultasActualiza Constructor " Url="html/1657666d-32a1-69c0-647a-f57d077d3abb.htm" />
+      <HelpTOCNode Title="frmDefMultasActualiza Properties" Url="html/7f6bf97d-196f-1179-0928-9c4ae4a0f310.htm" />
+      <HelpTOCNode Id="372c5e23-33ab-4ea6-a84e-e93f234c8f18" Title="frmDefMultasActualiza Methods" Url="html/8708a994-1cdc-ab22-c830-d73ae944197d.htm">
+        <HelpTOCNode Id="bf60d2a1-12e8-4fe9-a1cd-62b30de58da1" Title="Dispose Method " Url="html/024eda39-7c10-c9b9-15f6-fb6ed946241d.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/893276e1-c112-0ff1-922f-22a7f1391a56.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmDefMultasActualiza Events" Url="html/c28d353d-6bfc-6c76-6402-e59f08290a46.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8759bd51-a373-465a-973a-937b2255a80a" Title="frmEstadoDeCuenta Class" Url="html/e04a4332-8ffa-3ad0-a413-47c81b5b8454.htm">
+      <HelpTOCNode Title="frmEstadoDeCuenta Constructor " Url="html/15bbf9db-05ba-33d7-f81c-fb57571f3ebe.htm" />
+      <HelpTOCNode Title="frmEstadoDeCuenta Properties" Url="html/3a690623-21ec-03ea-1407-3f97d188861b.htm" />
+      <HelpTOCNode Id="61227726-88f5-4a6e-9867-ffeb637c7252" Title="frmEstadoDeCuenta Methods" Url="html/93817191-9f53-def5-c49c-915d972f337c.htm">
+        <HelpTOCNode Id="6b2949a8-38d2-41e8-83dc-2d4e1607d403" Title="Dispose Method " Url="html/cbb6ee6b-0513-576e-425e-bcf3fcbd0c65.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/50fb8805-0ea2-448d-3aea-fa0c1449fc02.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmEstadoDeCuenta Events" Url="html/ba982bcb-45b5-25e1-66d3-641848766757.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c19b7192-ab10-489e-9ba6-a803db188e0d" Title="frmFiltroClientes Class" Url="html/20e536d2-4265-6fb0-b797-c7db712aac91.htm">
+      <HelpTOCNode Title="frmFiltroClientes Constructor " Url="html/8150b4fc-3844-7628-3c08-d23902541156.htm" />
+      <HelpTOCNode Title="frmFiltroClientes Properties" Url="html/c6e29a85-fb70-8b36-47d1-d47e9f4207fe.htm" />
+      <HelpTOCNode Id="978ab8bb-1339-449f-8bd2-9556f22f6277" Title="frmFiltroClientes Methods" Url="html/7d341d67-b4dd-7b90-72ed-ecbf1f4300d7.htm">
+        <HelpTOCNode Id="ff13a464-1838-4b57-a02e-1cf9f1e4b9fb" Title="Dispose Method " Url="html/2b5a898a-6789-9d93-9c32-7328d3e8e31a.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/c19e7927-8dc7-75c2-dec8-b471ccd95097.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmFiltroClientes Events" Url="html/22d4eb3d-5c3e-615c-746c-46dcf35f4778.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="bde5b554-a142-4b76-be82-83ed7291f8e9" Title="frmFiltroPrestamos Class" Url="html/914084c6-dc75-95e8-036d-6f1ea71f7c2b.htm">
+      <HelpTOCNode Title="frmFiltroPrestamos Constructor " Url="html/db8b3b5a-142e-c59e-15ec-0b0344cbae8f.htm" />
+      <HelpTOCNode Title="frmFiltroPrestamos Properties" Url="html/0d3f3c6c-6523-07f2-5d62-2932930b4140.htm" />
+      <HelpTOCNode Id="df7c4a3f-3aad-40d6-9fa3-4b499e2f5307" Title="frmFiltroPrestamos Methods" Url="html/ce69587c-f0be-28fb-3f95-1a405945372f.htm">
+        <HelpTOCNode Id="6a2f5df3-120a-4487-aa30-8972803997a1" Title="Dispose Method " Url="html/e32517d0-01f9-4f65-a478-33b8f41b0c1c.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/5a0d4274-88ca-fc04-c315-aeb6f306d547.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmFiltroPrestamos Events" Url="html/5385658a-673b-0c0d-fb30-6ae55c22ddc6.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ddc26635-2271-4085-aad8-49886d335253" Title="frmFiltroReporteComisiones Class" Url="html/0e3fd37a-16ae-51be-1630-92745935a736.htm">
+      <HelpTOCNode Title="frmFiltroReporteComisiones Constructor " Url="html/e927b01a-f1eb-32ef-d947-7462725108f8.htm" />
+      <HelpTOCNode Title="frmFiltroReporteComisiones Properties" Url="html/22944042-a2d5-2fe6-12c7-26fc728d81e2.htm" />
+      <HelpTOCNode Id="10d0f9cf-4fdc-41b3-aa43-72ab86ac883e" Title="frmFiltroReporteComisiones Methods" Url="html/a8cff42a-3568-4707-2065-16821924186f.htm">
+        <HelpTOCNode Id="614261fa-1e5b-43e2-8853-70710b7768fb" Title="Dispose Method " Url="html/267895eb-f5c8-8d0d-8d27-9191d63e60ad.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/360424a5-91ff-00d9-a36b-c7e3667fe72e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmFiltroReporteComisiones Events" Url="html/bcffd0b7-5eb1-34f9-4938-ca622ef86060.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1272bf7b-7f81-44e7-a242-3debee80a89a" Title="frmFiltroReportePagos Class" Url="html/a9d8cb56-3168-b4b2-bdf1-fa80b429d9c1.htm">
+      <HelpTOCNode Title="frmFiltroReportePagos Constructor " Url="html/fb5f5af5-ba9d-6324-57a6-61e7b1cbb5d0.htm" />
+      <HelpTOCNode Title="frmFiltroReportePagos Properties" Url="html/720e83d8-4428-c98c-ca2d-c6c10a1dc15b.htm" />
+      <HelpTOCNode Id="d430a378-5e58-424a-aca8-21395f4f1ac6" Title="frmFiltroReportePagos Methods" Url="html/37f5f7aa-71a5-88dd-5fec-acaf8db76e58.htm">
+        <HelpTOCNode Id="f30f7dff-4242-424a-bfdb-8bfb6b903afa" Title="Dispose Method " Url="html/a7f323e2-624c-3feb-ee46-3ee33fbef600.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/55f1b21e-ff16-4414-6692-11995020f844.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmFiltroReportePagos Events" Url="html/39c862ea-048a-7908-6932-a0c2f870e4a7.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f3180d1-b506-474c-83fd-8f4d02cccdcd" Title="frmMovimientosCxC Class" Url="html/e86fec0d-fd02-b28f-3107-3cfed4422eba.htm">
+      <HelpTOCNode Title="frmMovimientosCxC Constructor " Url="html/ac013a00-f389-cf8d-fb1a-c6aad7390adf.htm" />
+      <HelpTOCNode Title="frmMovimientosCxC Properties" Url="html/0fbd0156-0e55-c9ab-900d-c3ed58b8afec.htm" />
+      <HelpTOCNode Id="f7282238-ccb7-4e69-b93b-74a38f026751" Title="frmMovimientosCxC Methods" Url="html/ebd80017-7f96-90e8-78de-b07b4ec22868.htm">
+        <HelpTOCNode Id="5f4dfb04-a15c-42fc-8649-d9e62a277ae7" Title="Dispose Method " Url="html/04af7151-388b-138d-c5f4-ae9161259125.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/7369ff63-ff23-b7d8-4d2c-a11e6d88d960.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmMovimientosCxC Events" Url="html/ff5e8bab-7c31-102c-ef2e-401b1b42c88f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c4ba53ff-afeb-4daa-9df5-dee2c0085a83" Title="frmMultas Class" Url="html/2c820fdb-9636-cc74-b914-a623d1946883.htm">
+      <HelpTOCNode Title="frmMultas Constructor " Url="html/5478ecae-f16c-918f-0d2f-31926c166909.htm" />
+      <HelpTOCNode Title="frmMultas Properties" Url="html/87d7cb2c-b9c0-b95c-8fc5-7cc1f870fff5.htm" />
+      <HelpTOCNode Id="95123e9d-ef2c-4227-a520-0f80316517dc" Title="frmMultas Methods" Url="html/63618803-c6f5-373a-11c1-3d0bd5ac8d13.htm">
+        <HelpTOCNode Id="ab93e1e4-f3ae-4b3c-adfc-4f85de453a29" Title="Dispose Method " Url="html/34c3f47b-f58f-a355-ed89-3dd8320c65d7.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/8d3b6ca8-60f4-a43b-a6fe-e0835becbcdf.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmMultas Events" Url="html/97466d52-a79e-d0a1-d24b-c14089a0b863.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f068dd71-4bf9-4549-b0e3-4d853491b42d" Title="frmMultasFiltro Class" Url="html/c249ac7b-c6f6-44e7-fcdb-1134c733632d.htm">
+      <HelpTOCNode Title="frmMultasFiltro Constructor " Url="html/790729ff-72b0-e348-73e4-7f70e1a310b3.htm" />
+      <HelpTOCNode Title="frmMultasFiltro Properties" Url="html/8b98e95b-6836-c9b2-0429-a1dc1a1dedc6.htm" />
+      <HelpTOCNode Id="87529303-5240-4b40-b7bd-98ad94909d60" Title="frmMultasFiltro Methods" Url="html/bf63ed93-f199-1cb8-5fac-56703a799d5d.htm">
+        <HelpTOCNode Id="627fdcdb-0c5d-4f15-9a3b-496839d0d157" Title="Dispose Method " Url="html/9510d6c7-6b18-2673-209d-04aab22f661f.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/9f37912a-06a7-b388-2b70-69b0356a5e17.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmMultasFiltro Events" Url="html/7e416c72-38fb-83d0-b895-dab4e351c38f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e5233b9-fa93-4137-a0be-0214eee07de7" Title="frmPagos Class" Url="html/6368bac7-390b-9a1e-1160-39b9562058a0.htm">
+      <HelpTOCNode Title="frmPagos Constructor " Url="html/a3c32b55-c915-6b97-bbe9-c7f17727ff55.htm" />
+      <HelpTOCNode Title="frmPagos Properties" Url="html/5c94bdce-02dc-0639-79bd-b66e31929623.htm" />
+      <HelpTOCNode Id="a44d8de9-67ba-41e2-95bc-ec6d62f9b345" Title="frmPagos Methods" Url="html/4e831df2-25c5-7f13-ef82-597f09bcacaf.htm">
+        <HelpTOCNode Id="9dbf63c0-8a5c-4302-8b86-682b9a3ba44d" Title="Dispose Method " Url="html/4577499e-0e5e-7390-a3be-1c68cb193538.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/a3527f87-96fd-9122-adfe-91ed98e98773.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmPagos Events" Url="html/2a285b3a-cce3-e715-aab1-6d297f0311e2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="07a4be41-7cdc-46de-b3c4-0ec99670250f" Title="frmPrestamos Class" Url="html/8b7524b1-9631-56a9-4cf2-16c8746ea12f.htm">
+      <HelpTOCNode Title="frmPrestamos Constructor " Url="html/e2e83184-7715-de3c-47e1-a8a3b26c2ce8.htm" />
+      <HelpTOCNode Title="frmPrestamos Properties" Url="html/d6c9bcb6-73c4-9434-d6b6-a3c97a0e075c.htm" />
+      <HelpTOCNode Id="0df56d91-011f-4432-9290-11025dbd4256" Title="frmPrestamos Methods" Url="html/585eae8c-456f-9974-fdc5-1709f453ac11.htm">
+        <HelpTOCNode Id="b6beda5e-8e55-4706-8830-01124ba127eb" Title="Dispose Method " Url="html/4fb7ce56-811e-c6eb-9f5f-88ca10758398.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/9559e6c6-8d74-823e-fffa-c4ae973890ca.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmPrestamos Events" Url="html/16eaa377-a338-a2cb-e042-8b58ed3a5c91.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="abeb4656-7d87-4e61-8e75-bd1f9819f0cd" Title="frmReconcInterna Class" Url="html/18c0a9ae-67ef-0f05-cc78-3e88febca1a1.htm">
+      <HelpTOCNode Title="frmReconcInterna Constructor " Url="html/d85ee9d4-1ff9-49fb-19c3-4f361e3398d5.htm" />
+      <HelpTOCNode Title="frmReconcInterna Properties" Url="html/acd0bd4f-e8d8-d78b-f1ca-fc6ffa01d5b2.htm" />
+      <HelpTOCNode Id="55e075a4-4fda-4ac2-8cdf-5b4a1e362921" Title="frmReconcInterna Methods" Url="html/ee3679d3-ac8a-92fa-2d46-7b7e76a79496.htm">
+        <HelpTOCNode Id="8f8e6e85-238c-4df6-ab64-3caa00fa0855" Title="Dispose Method " Url="html/c0103ca9-eeca-f488-d6a8-5945f680d255.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/4826d403-a852-6e55-20e9-73ecd84ae88b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmReconcInterna Events" Url="html/308df8a8-48f3-90f5-777d-ef6fc78c6548.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c86b0731-ffc8-4a87-8bcb-5b4a27e6e3c4" Title="frmReporteCobros Class" Url="html/43d8e5ff-5121-c61e-aa9d-021e893c3b86.htm">
+      <HelpTOCNode Title="frmReporteCobros Constructor " Url="html/a1306640-3576-5b5d-fbaf-d2cd6740cc02.htm" />
+      <HelpTOCNode Title="frmReporteCobros Properties" Url="html/136716ac-3ef5-1d7a-c647-3de3b0043dc2.htm" />
+      <HelpTOCNode Id="d50659fe-ed08-43fc-a7a1-626cd340a70b" Title="frmReporteCobros Methods" Url="html/c786c56b-a437-ed21-134a-d76d227e3cdb.htm">
+        <HelpTOCNode Id="4884d98f-dcb7-43ad-a6fc-07a76ea1002e" Title="Dispose Method " Url="html/f4ee2af0-4394-88aa-e1f5-63c16a9469d7.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/6cd65385-ae70-9615-c80b-a10314340935.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmReporteCobros Events" Url="html/353ba8e2-5130-7256-a4e4-235f94bb33a4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="12b97865-ef9e-44de-bbda-0a8a56af17b9" Title="frmReporteComisiones Class" Url="html/ae3e8a55-d33e-ffb7-a0b4-2a9db198d366.htm">
+      <HelpTOCNode Title="frmReporteComisiones Constructor " Url="html/f2764695-e503-da90-5e19-b63c62db53d9.htm" />
+      <HelpTOCNode Title="frmReporteComisiones Properties" Url="html/8c9cb819-979d-bd7a-45af-250da2cda0ed.htm" />
+      <HelpTOCNode Id="08e37deb-2097-4846-b1f0-771276e71d7b" Title="frmReporteComisiones Methods" Url="html/cc2dc0c0-df69-be05-b96a-b95c037fe08f.htm">
+        <HelpTOCNode Id="c0140ed5-cffd-4eac-a4d9-c5647e841983" Title="Dispose Method " Url="html/f87e508c-4a98-0295-c9d1-df9322c8dccc.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1be1bdd8-d80f-7695-3a9a-324123d78aa8.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmReporteComisiones Events" Url="html/8bd76092-441a-a1ee-c9bf-50980d7e06b2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ed90f1c-a29a-4db5-8850-7f703087301e" Title="frmReportePagos Class" Url="html/fc017cb4-048b-4ea4-c2d4-ad0c02d7c7ed.htm">
+      <HelpTOCNode Title="frmReportePagos Constructor " Url="html/e0a6af19-eece-bd03-a712-e7c295b29fee.htm" />
+      <HelpTOCNode Title="frmReportePagos Properties" Url="html/55d0432b-825c-2f8b-4967-c3f8c4ff732c.htm" />
+      <HelpTOCNode Id="cb5885bd-a05c-4a9e-a26f-5566184137f9" Title="frmReportePagos Methods" Url="html/a943c9b5-fb06-ba43-58b9-b4543790c50c.htm">
+        <HelpTOCNode Id="0c903ffc-254f-4b13-b0a7-68ed9260e64d" Title="Dispose Method " Url="html/99f65bbe-2b64-5215-e54f-b6cd1f4459a2.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/3c0587bd-4581-aee6-87c8-c8de11a33b2f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmReportePagos Events" Url="html/b4a27ed8-338c-4db7-65a6-e022581a31d1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ea5d5765-3cd2-43d8-b28e-0b4b90619e36" Title="frmUsuarios Class" Url="html/3703507a-99d6-7cd0-910e-c4f9e4cd0f81.htm">
+      <HelpTOCNode Title="frmUsuarios Constructor " Url="html/e53bb69b-0aec-de32-ee26-6883da21035c.htm" />
+      <HelpTOCNode Title="frmUsuarios Properties" Url="html/098627bf-5ab2-a2b1-d92f-88d806904357.htm" />
+      <HelpTOCNode Id="99f3d995-151a-4136-b01d-eb8630cb2aa5" Title="frmUsuarios Methods" Url="html/71857754-0de8-b743-4c10-0485ba4f20fb.htm">
+        <HelpTOCNode Id="9236abce-38d9-4083-aead-d9a2c8992ba4" Title="Dispose Method " Url="html/d6ead6dd-f984-4d93-29a4-60664fa0fa3a.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/24b36554-fa58-8f4e-0905-d69dc2a1a23d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmUsuarios Events" Url="html/400aeb29-2a36-a4b6-e481-e6c5d4bc8a0c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6c0107a8-f306-4c6f-9ac4-bca137f2e5e9" Title="Pr&#233;stamos Class" Url="html/51d81cc3-9554-22df-7aa3-22d16a3102e5.htm">
+      <HelpTOCNode Id="03ca3b64-28af-412b-8c71-851b59c6b795" Title="Pr&#233;stamos Constructor " Url="html/7a3c6f6b-5583-0143-41bf-28fc33f4d129.htm">
+        <HelpTOCNode Title="Pr&#233;stamos Constructor (BDConector, String, Int32, String[])" Url="html/037ac3b4-edc0-aec1-ec1b-6d8cd31e7338.htm" />
+        <HelpTOCNode Title="Pr&#233;stamos Constructor (BDConector, String, Int32, String, String[])" Url="html/f9b7ee39-0a49-915b-d10d-b795bf49682c.htm" />
+        <HelpTOCNode Title="Pr&#233;stamos Constructor (BDConector, String, String, String, String[], Int32, String[])" Url="html/3351e805-3bdb-1a9b-28a4-9f5b78828cbb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7b635849-a250-4a19-9330-4e3becb9b323" Title="Pr&#233;stamos Properties" Url="html/61520045-4ce3-888e-bb09-16543727da44.htm">
+        <HelpTOCNode Title="filaSelec Property " Url="html/b2eee3c5-7174-9062-d7c5-9f8506864d04.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ec3b7b23-0374-4f99-abae-6f127d0a7a21" Title="Pr&#233;stamos Methods" Url="html/a85efaf9-6e90-fc97-24a0-f89c2aa7d37f.htm">
+        <HelpTOCNode Title="calcular_prestamo Method " Url="html/85fa2b69-5a89-5084-9884-5ab0bb1eab45.htm" />
+        <HelpTOCNode Id="cf016009-b7e3-43bf-8c46-4ca91a80f8b7" Title="Dispose Method " Url="html/1f388159-1365-3273-4e5c-cd3c8231dc77.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/d6c4f470-9027-c0ae-2bef-d9b2433b3338.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Pr&#233;stamos Events" Url="html/c962f461-bbb7-f158-581b-1b7df1901af1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="979f3510-90a2-4863-abb4-1e39148b2e91" Title="ResultadosBusqueda Class" Url="html/1662d05a-8e75-aea5-d310-5b574170d4d9.htm">
+      <HelpTOCNode Title="ResultadosBusqueda Constructor " Url="html/5ae553df-2f25-73ec-cd8d-232db85eb31a.htm" />
+      <HelpTOCNode Title="ResultadosBusqueda Properties" Url="html/ab8fb67a-0a3f-7ee8-3ba7-fa804ab9ee6e.htm" />
+      <HelpTOCNode Id="150bb33d-82f7-4159-a5a0-4cfa90a6f84d" Title="ResultadosBusqueda Methods" Url="html/42ba730d-1ec9-0ee9-2595-9accf4a6ecd9.htm">
+        <HelpTOCNode Id="aedcbb6d-0c78-40f6-b8dd-241c8f82f3c6" Title="Dispose Method " Url="html/687fd72d-9f16-6ec4-b8f1-bd632f698f91.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/b88dca0f-b2d9-f9aa-ebcd-3c5ecc2cbd9a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ResultadosBusqueda Events" Url="html/9138da58-1e85-720e-52ef-54ed7b5ba4c1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="084104c9-be2e-41c9-8266-8727518143d2" Title="ResultadosDoctosRel Class" Url="html/e6ab646d-8ba8-578d-08d3-9a8518e2ff67.htm">
+      <HelpTOCNode Title="ResultadosDoctosRel Constructor " Url="html/951dc370-b866-7d51-48bf-d0be52fd3dca.htm" />
+      <HelpTOCNode Title="ResultadosDoctosRel Properties" Url="html/784a03dc-7f5a-b405-c110-ea33cf11490c.htm" />
+      <HelpTOCNode Id="8125834a-c1cc-47d3-8108-d4c10a389b2c" Title="ResultadosDoctosRel Methods" Url="html/5e8bf209-5b66-67c4-6253-097ef4097c82.htm">
+        <HelpTOCNode Id="e626aff8-69ac-41fc-9333-00c1b9f8b456" Title="Dispose Method " Url="html/8957f63d-3ce1-64b0-8f0f-d1f3fc5ace8d.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/f77c9aee-b4ab-c9c8-cf8e-3adf27b35e79.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="ResultadosDoctosRel Events" Url="html/59242929-7d32-61be-30ad-5b769d4ad45d.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="fe16c26b-1a23-43b8-844f-ed8b119b830d" Title="SystemaFinanciero.BusinessRules" Url="html/6215c837-689b-b91c-54ac-d39153028f13.htm">
+    <HelpTOCNode Title="BRMensajes Class" Url="html/52713b9a-cd8e-3413-3fbc-8e30e2595d4f.htm" />
+    <HelpTOCNode Title="BRMensajes.PRESTAMO Class" Url="html/5f61878c-7b26-7a68-477f-f04d73b561a4.htm" />
+    <HelpTOCNode Id="bf27c9bf-989d-4381-9363-868f71f2a612" Title="BRMensajes.PRESTAMO.REFINANCIAMIENTO Class" Url="html/23d78139-76dc-c008-e966-f861da96241d.htm">
+      <HelpTOCNode Id="60683eb1-0937-4ecd-87f8-267f78de6e62" Title="REFINANCIAMIENTO Methods" Url="html/f8435843-8eff-a280-26da-22655dad189f.htm">
+        <HelpTOCNode Title="OBTENER_DESCRIPCION_MENSAJE Method " Url="html/4ba2945c-ff7d-b62d-3192-330f5c361046.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="89f51cf8-31e9-4dfe-a3c2-91e52abcc7c1" Title="REFINANCIAMIENTO Fields" Url="html/241773ba-c0de-93e1-82c3-34ee0e2573ed.htm">
+        <HelpTOCNode Title="MENSAJE_100_APPROVAL Field" Url="html/c4ae55e7-7d5f-ca5b-4cb5-9d8bcde07961.htm" />
+        <HelpTOCNode Title="MENSAJE_100_DENY Field" Url="html/9e2a66cc-7c2d-6b67-5d4c-0a608fe170ad.htm" />
+        <HelpTOCNode Title="MENSAJE_101_APPROVAL Field" Url="html/708fac1a-6d78-d015-e22f-3bdd7b02ff48.htm" />
+        <HelpTOCNode Title="MENSAJE_101_DENY Field" Url="html/9e0b420f-f277-5769-2db4-19b0a3088350.htm" />
+        <HelpTOCNode Title="MENSAJE_102_APPROVAL Field" Url="html/a1fe4b40-5dbf-8bac-531d-a012786141ea.htm" />
+        <HelpTOCNode Title="MENSAJE_102_DENY Field" Url="html/aad768f5-bdaf-babe-3600-5eca67d8c8e2.htm" />
+        <HelpTOCNode Title="MENSAJE_103_APPROVAL Field" Url="html/040e0061-a6f5-8ee1-1c05-d4eca75779bc.htm" />
+        <HelpTOCNode Title="MENSAJE_103_DENY Field" Url="html/9c7362cc-2718-fa47-1691-7ea84605326f.htm" />
+        <HelpTOCNode Title="MENSAJE_104_DENY Field" Url="html/cd82c648-5172-5f88-5a26-e5ae91067eff.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3c4b8534-0bce-4486-a558-d7d3ea7747c1" Title="SystemaFinanciero.BusinessRules.UI" Url="html/a8a5da9d-a5a4-9959-7b99-223da9cd115b.htm">
+    <HelpTOCNode Id="42ecfdaf-baa1-428d-af21-bbf866fb639a" Title="BRUIRefinanciamientoResultado Class" Url="html/bd324462-0cad-7d58-c964-568364041eca.htm">
+      <HelpTOCNode Title="BRUIRefinanciamientoResultado Constructor " Url="html/fc681c73-7baf-3ae6-9dbf-28124bad69e1.htm" />
+      <HelpTOCNode Title="BRUIRefinanciamientoResultado Properties" Url="html/cabc2d59-de65-88fa-1011-ba759ebc79bf.htm" />
+      <HelpTOCNode Id="986a47c7-f35a-4587-a906-6f17e91ad5fc" Title="BRUIRefinanciamientoResultado Methods" Url="html/9af9c9e2-fbf7-cd21-18dc-7064e3f15098.htm">
+        <HelpTOCNode Id="dceb4783-7bec-4675-8dc4-1524f5b30e8e" Title="Dispose Method " Url="html/dce52ec7-e7e3-896a-68a1-0f8b5fb999cd.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/88f2ff2c-52a8-3f1a-904e-f9da07874d4d.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="BRUIRefinanciamientoResultado Events" Url="html/726dc090-9180-d1f0-c79c-0ec629bf8f30.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="5fa88000-8f42-4da8-9249-137d4da2a009" Title="SystemaFinanciero.FinancieraDataSetTableAdapters" Url="html/ce41f32d-22fe-d6fd-b9b4-a00156ce58f3.htm">
+    <HelpTOCNode Id="ab3be083-8080-41fc-8854-9b805a916662" Title="PLAZOTableAdapter Class" Url="html/18b0ff81-ffe6-e18c-f8b8-f0876a7d60a5.htm">
+      <HelpTOCNode Title="PLAZOTableAdapter Constructor " Url="html/cb754771-d29e-003c-e83f-593193f8ad07.htm" />
+      <HelpTOCNode Id="bd2ce35a-2bfa-4a1f-8c8c-39787c013a9d" Title="PLAZOTableAdapter Properties" Url="html/945ad7cc-6206-fa71-b5dc-d1386c17142b.htm">
+        <HelpTOCNode Title="Adapter Property " Url="html/8ea1b978-1166-8e52-425e-882e5b1c5ea0.htm" />
+        <HelpTOCNode Title="ClearBeforeFill Property " Url="html/d5181a0c-e87a-9f0e-d2be-81794f3e714a.htm" />
+        <HelpTOCNode Title="CommandCollection Property " Url="html/f704bfcd-aced-b4fc-634b-94c8ee7bf3cf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ec2fa98c-23d1-40f0-b516-5479adefce7d" Title="PLAZOTableAdapter Methods" Url="html/c4adbcc2-0556-ad8d-1e06-c75c9e7ba67d.htm">
+        <HelpTOCNode Title="Delete Method " Url="html/7f758abc-349e-a8fa-491b-2faabbe5e3ec.htm" />
+        <HelpTOCNode Title="Fill Method " Url="html/a555cd54-40b9-0228-a394-72f5c792b42d.htm" />
+        <HelpTOCNode Title="GetData Method " Url="html/1f102dd4-64ba-ab67-89c8-df180126cb75.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/d14ad2dc-67be-4fd9-b57c-8612af6b50e6.htm" />
+        <HelpTOCNode Id="3d1cea37-6b6f-4297-8b16-01d449c325f5" Title="Update Method " Url="html/8a18ec4e-aedb-ef0f-dc69-34ce2e7350f1.htm">
+          <HelpTOCNode Title="Update Method (DataRow)" Url="html/9ff1820b-f251-16db-478e-70b0b9cc6e7e.htm" />
+          <HelpTOCNode Title="Update Method (DataRow[])" Url="html/fc70e034-e232-4568-e577-8443de648f97.htm" />
+          <HelpTOCNode Title="Update Method (FinancieraDataSet)" Url="html/dce772b8-bdc2-0817-8c66-195a80ee0da0.htm" />
+          <HelpTOCNode Title="Update Method (FinancieraDataSet.PLAZODataTable)" Url="html/549798f0-f5af-ed17-1ad7-30c8a0476b84.htm" />
+          <HelpTOCNode Title="Update Method (Int32, Int32, Int32, Int32, Int32)" Url="html/0b7719a9-abe1-466c-dfbf-e6b6711d29ea.htm" />
+          <HelpTOCNode Title="Update Method (Int32, Int32, Int32, Int32, Int32, Int32)" Url="html/851eb295-009c-ef55-b847-590b61569ca0.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="PLAZOTableAdapter Events" Url="html/0a508d29-5401-4209-f4d1-4541cb0e32e2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1ccd695c-56ac-4be8-9620-eed2423f5a79" Title="TableAdapterManager Class" Url="html/86e41de8-be21-7056-4c7f-25925c88be9f.htm">
+      <HelpTOCNode Title="TableAdapterManager Constructor " Url="html/a8673b7d-4d20-122a-d5ab-5512b69c9fed.htm" />
+      <HelpTOCNode Id="b1c7bb93-8ee2-40f8-aa14-b29c1aa36b17" Title="TableAdapterManager Properties" Url="html/49ed236b-9649-e996-811d-51de74fae50d.htm">
+        <HelpTOCNode Title="BackupDataSetBeforeUpdate Property " Url="html/61754c87-914d-3565-dec9-0ca24a0cf0c2.htm" />
+        <HelpTOCNode Title="Connection Property " Url="html/28179d31-48a3-1b14-5ebb-8aba2f647a71.htm" />
+        <HelpTOCNode Title="PLAZOTableAdapter Property " Url="html/a47a464b-ab86-1f58-2f27-35ee68efc6f1.htm" />
+        <HelpTOCNode Title="TableAdapterInstanceCount Property " Url="html/91b02937-56cf-0f4a-a562-31fe5ac1416d.htm" />
+        <HelpTOCNode Title="UpdateOrder Property " Url="html/1bb96ab5-bcc6-8410-0537-3589275614c4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="53f85ced-7e80-4c9c-bb98-d878e7088495" Title="TableAdapterManager Methods" Url="html/733e7308-2400-656f-c77a-f782be8924a6.htm">
+        <HelpTOCNode Title="MatchTableAdapterConnection Method " Url="html/769d5c67-9c04-bc21-990b-47d56648455d.htm" />
+        <HelpTOCNode Title="SortSelfReferenceRows Method " Url="html/ba28d543-9a19-7337-183f-d39ed0e138d3.htm" />
+        <HelpTOCNode Title="UpdateAll Method " Url="html/13fd2828-79c3-87bb-aa82-bd447decc27c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TableAdapterManager Events" Url="html/77f425d6-5991-f38e-1730-7d015baf3739.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="TableAdapterManager.UpdateOrderOption Enumeration" Url="html/7db66bfe-3118-3052-1fad-e84575bae0ca.htm" />
+  </HelpTOCNode>
+</HelpTOC>
